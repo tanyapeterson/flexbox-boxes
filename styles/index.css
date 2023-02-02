@@ -1,0 +1,22 @@
+body {
+    min-height: 100vh;
+    background-color: #B5D5C5
+}
+
+.container {
+    width: 1000px;
+    height: 700px;
+    background-color: #A75D5D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box {
+    width: 400px;
+    height: 160px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px;
+}
