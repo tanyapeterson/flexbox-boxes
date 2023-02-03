@@ -32,7 +32,11 @@ body {
 }
 
 
-.box-2 {}
+.box-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 .box-3 {}
@@ -48,6 +52,15 @@ body {
 .square {
     width: 78px;
     height: 78px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.rectangle {
+    width: 78px;
+    height: 120px;
     background-color: black;
     border-radius: 10px;
     margin: 10px;
